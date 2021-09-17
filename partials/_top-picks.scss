@@ -3,7 +3,8 @@
 .top-picks { 
   position: relative;
   padding: 50px; 
-
+  background-color: variables.$primary;
+  
   &__header {
     border-left: solid 5px variables.$primary;
     padding-left: 20px;
