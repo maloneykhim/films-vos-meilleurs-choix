@@ -7,27 +7,22 @@
 .card{
     padding: 5px;
     margin: 5px;
-    &__btn{
-        width: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-style: none;
-        color: color.complement(variables.$primary);
-        background: color.adjust(variables.$primary, $lightness: 15%);
-        @include text.small-cap;
-        &:hover{
-            background: color.adjust(variables.$primary, $lightness: 25%);;
+        &__btn{
+            width: 100%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-style: none;
+            color: color.complement(variables.$primary);
+            background: color.adjust(variables.$primary, $lightness: 15%);
+            @include text.small-cap;
+                &:hover{
+                background: color.adjust(variables.$primary, $lightness: 25%);
+                }
         }
-    }
-    }
-
-body{
-    background-color: color.adjust(variables.$primary, $lightness: 5%)
     }
 
 .top-picks__header{
     color: white;
-
 }
 
 .top-picks__desc{
